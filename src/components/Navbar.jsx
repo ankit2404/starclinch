@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/Navbar.css";
-import { Select, Avatar, Typography } from "antd";
+import { Select, Avatar, Typography, Button } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
 const { Text } = Typography;
 
-const Navbar = () => {
+const Navbar = ({ setShow }) => {
   const option = [
     {
       value: "Home Page",
@@ -19,6 +19,9 @@ const Navbar = () => {
       label: "Pages",
     },
   ];
+  const clickHandler = () => {
+    setShow(true);
+  };
   return (
     <div className="nav-container">
       <div className="cont">
@@ -52,7 +55,9 @@ const Navbar = () => {
         </div>
         <div>
           <div className="nav-third-part">
-            <SearchOutlined height="20px" width="20px" />
+            <Button onClick={clickHandler} style={{ border: "none" }}>
+              <SearchOutlined height="20px" width="20px" />
+            </Button>
             <Avatar
               src="https://xsgames.co/randomusers/avatar.php?g=pixel&key=1"
               style={{

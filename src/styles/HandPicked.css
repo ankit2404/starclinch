@@ -1,0 +1,23 @@
+.handpicked-container{
+    width: 55%;
+    margin: auto;
+    margin-top: 60px;
+}
+.handpicked-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.handpicked-card{
+    display: flex;
+    justify-content: space-between;
+}
+.handpicked-text{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: math;
+}
+.handpicked-card-div{
+    margin-top: 15px;
+    width: 45%;
+}
