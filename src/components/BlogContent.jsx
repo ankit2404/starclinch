@@ -3,7 +3,6 @@ import "../styles/BlogContent.css";
 import { Typography, Avatar, Button } from "antd";
 import Comment from "./Comment";
 import { ImageData } from "../static/ImagesArray";
-
 import {
   CopyOutlined,
   SaveOutlined,
