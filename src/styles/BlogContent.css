@@ -1,0 +1,42 @@
+.blog-main{
+    width: 85%;
+    margin: auto;
+}
+.blog-top{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-heading-left{
+    flex: 2;
+    margin-top: 15px;
+}
+.blog-heading-right{
+    flex: 2;
+    display: flex;
+    justify-content: end;
+    margin-top: 35px;
+}
+.blog-highlight{
+    margin-top: 20px;
+    background-color: white;
+    height: 300px;
+}
+.blog-highlight-comment{
+    margin-top: 20px;
+    background-color: white;
+    height: 150px;
+}
+.blog-highlight-content{
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+}
+.blog-food-image{
+    width: 300px !important;
+    height: 150px !important;
+    border-radius: 5px;
+}
+.blog-food-text{
+    font-weight: 500;
+    font-size: 14px;
+}

@@ -2,21 +2,34 @@ import React from "react";
 import "../styles/Navbar.css";
 import { Select, Avatar, Typography, Button } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
+import { Link } from "react-router-dom";
 const { Text } = Typography;
 
 const Navbar = ({ setShow }) => {
   const option = [
     {
       value: "Home Page",
-      label: "Home Page",
+      label: (
+        <Link to="/" style={{ color: "black" }}>
+          Home{" "}
+        </Link>
+      ),
     },
     {
-      value: "Recipe Page",
-      label: "Recipe Page",
+      value: "Category Page",
+      label: (
+        <Link to="/category" style={{ color: "black" }}>
+          Category Page{" "}
+        </Link>
+      ),
     },
     {
-      value: "Pages",
-      label: "Pages",
+      value: "Search Page",
+      label: (
+        <Link to="/search" style={{ color: "black" }}>
+          Search Page{" "}
+        </Link>
+      ),
     },
   ];
   const clickHandler = () => {
@@ -49,8 +62,17 @@ const Navbar = ({ setShow }) => {
           <div>
             <Select defaultValue="Pages" bordered={false} options={option} />
           </div>
-          <div style={{ marginTop: "3.2px" }}>
-            <Text style={{ fontSize: "16px" }}>Buy</Text>
+          <div style={{ marginTop: "8px" }}>
+            <Link
+              style={{
+                fontSize: "16px",
+                color: "black",
+                textDecoration: "none",
+              }}
+              to="/blog"
+            >
+              Blog
+            </Link>
           </div>
         </div>
         <div>
