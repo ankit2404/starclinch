@@ -1,0 +1,14 @@
+.carousel-content{
+    width: 65%;
+    margin: auto;
+    margin-top: 50px;
+}
+.carousel-item{
+    display: flex !important;
+    justify-content: flex-start !important;
+    background-color: white !important;
+}
+.carousel-second{
+    margin-left: 40px;
+    margin-top: 15px;
+}

@@ -1,0 +1,25 @@
+.category-continer{
+    width: 65%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.category-image{
+    width: 280px !important;
+    height: 280px !important;
+    border-radius: 10px;
+}
+.category-text{
+    font-weight: 500;
+    font-size: 17px;
+}
+.category-image-round{
+    width: 150px !important;
+    height: 150px !important;
+    border-radius: 50%;
+}
+.category-image-round-text{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}

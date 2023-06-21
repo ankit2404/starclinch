@@ -1,0 +1,24 @@
+.LatestRecipe-continer{
+    width: 65%;
+    margin: auto;
+    margin-top: 50px;
+}
+.latestResume-button-div{
+    display: flex;
+    justify-content: center;
+}
+.latestResume-button{
+    color: black;
+    border: 1px solid black;
+    border-radius: 0px !important;
+    background: #FFE4C9;
+}
+.latestRecipe-image{
+    width: 210px !important;
+    height: 210px !important;
+    border-radius: 5px;
+}
+.latestRecipe-text{
+    font-weight: 500;
+    font-size: 14px;
+}
